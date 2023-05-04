@@ -1,0 +1,6 @@
+console.log('additional line')
+setTimeout(()=>{console.log("first line")},4000)
+console.log("new line")
+setTimeout(()=>{console.log("second line")},2000)
+console.log('last line')
+setTimeout(()=>{console.log("third line")},2000)

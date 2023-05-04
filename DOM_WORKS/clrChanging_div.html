@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="head" style="width: 400px;height: 400px;;margin-bottom: 10px;"></div>
+    <div style="margin-left: 90px;">
+    <button style="width: 50px;height: 30px; background-color: green;" onclick="setbackground('green')">click</button>
+    <button style="width: 50px;height: 30px; background-color: red;" onclick="setbackground('red')" >click</button>
+    <button style="width: 50px;height: 30px; background-color: violet;" onclick="setbackground('violet')" >click</button>
+    </div>
+
+    <script>
+        function setbackground(clr){
+            var elmnt=document.querySelector("#head")
+            elmnt.style.background=clr
+        }
+    
+    </script>
+
+</body>
+</html>
